@@ -1,0 +1,137 @@
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Lucida Sans';
+}
+
+header{
+  width: 100%;
+  display: flex;
+  line-height: 45px;    
+  margin: 20px 0px 20px 0px;
+}
+
+.judul {
+  text-align: center;
+  margin: auto;
+  font-size: 20px;
+  float: left;
+  font-family: Cambria;
+  color: #395B64;
+  padding: 10px;
+  background-color: #9dc6c5;
+  width: 85%;
+  border-radius: 20px;
+}
+
+.navbar {
+  /* width: 1300px; */
+  margin: auto;
+  /* position: relative; */
+}
+
+.logo a {
+  font-size: 40px;
+  font-weight: 600;
+  float: left;
+  font-family: Cambria;
+  color: #395B64;
+}
+
+.menu {
+  float: right;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 32px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+  border-bottom: 4px solid #395B64;
+  border-top: 4px solid#395B64;
+}
+
+.template {
+  margin: auto;
+  color: #395B64;
+  /* padding: 10px; */
+  background-color: #9dc6c5;
+  width: 90%;
+  border-radius: 20px;
+}
+
+.template2 {
+  margin: auto;
+  color: #395B64;
+  /* padding: 5px; */
+  margin: 30px 30px 30px 30px;
+  background-color: #b7d5d5;
+  /* width: 95%; */
+  border-radius: 20px;
+}
+
+.input-group {
+  width: 85%;
+margin: auto;
+}
+
+h2{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h4{
+  text-align: center;
+  font-family: Cambria;
+  font-weight:600;
+}
+
+#copyright {
+  text-align: center;
+  width: 100%;
+  padding: 50px 0px 50px 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 992px) {
+
+  .logo a {
+      display: block;
+      width: 100%;
+      text-align: center;
+      align-items: center;
+  }
+
+  nav{
+      width: 100%;
+      margin: 0;
+      text-align: center;
+      margin: auto;
+      line-height: 60px;
+  }
+
+  .navbar h5 {
+    font: optional;
+  }
+
+  .judul {
+    text-align: center;
+    margin: auto;
+    font: optional;
+  }
+
+  h2, h5{
+    font: optional;
+  }
+}
